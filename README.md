@@ -38,3 +38,22 @@ To run this project locally, follow these steps:
 
 ## Usage 
 
+- Visit [Live Demo]() to explore the online portfolio.
+- Navigate through project sections and animations to experience the user interface.
+- Click on project showcases for more details about the projects.
+- Use the contact form to get in touch with me.
+
+## Technologies Used
+
+- **ReactJS**: A popular JavaScript library for building user interfaces.
+- **Framer Motion**: A React animation library for creating smooth and interactive animations.
+- **Sass**: A CSS preprocessor that enhances stylesheet organization and maintainability.
+- **React Router**: For handling dynamic routing within the application.
+
+## License
+This project is open-source and available under the [MIT License](https://github.com/vijita-u/Portfolio_Vijita_Uday_ReactJs/blob/main/LICENSE).
+
+## Contact
+- [Email me](mailto:udayvijita3009@gmail.com?subject=Github%20Message)
+
+- [Let's connect on LinkedIn](https://www.linkedin.com/in/vijita-uday/)
