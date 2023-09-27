@@ -17,6 +17,14 @@ This repository hosts my online portfolio, a showcase of my work and skills. It 
 - **Project Showcases**: Showcases my projects and skills with short and sweet descriptions.
 - **Contact Form**: Allows visitors to get in touch with me directly through a convenient contact form.
 
+## Challenges faced and my process to create the website
+
+Originally, I constructed my website using plain HTML, CSS, and JavaScript. However, I soon recognized the potential benefits of transitioning to React. Its dynamic routing capabilities and the desire to further my familiarity with the framework prompted the switch.
+
+Initially, GSAP was my choice for animations, but its lack of seamless integration with React and the complexity of resulting code led me to search for a better solution. That's when I stumbled upon Framer Motion, an exceptional React animation library. Eager to embrace this new tool, I quickly immersed myself in learning its fundamentals and successfully implemented it in my portfolio.
+
+This experience was my first dive into the world of Framer Motion, and I thoroughly enjoyed it.
+
 ## Installation
 
 To run this project locally, follow these steps:
