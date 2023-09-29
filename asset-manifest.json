@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio_Vijita_Uday_ReactJs/static/css/main.dad5b3ec.css",
+    "main.css": "/Portfolio_Vijita_Uday_ReactJs/static/css/main.521e202a.css",
     "main.js": "/Portfolio_Vijita_Uday_ReactJs/static/js/main.bd45203b.js",
     "static/js/485.2086c44a.chunk.js": "/Portfolio_Vijita_Uday_ReactJs/static/js/485.2086c44a.chunk.js",
     "static/js/787.40608543.chunk.js": "/Portfolio_Vijita_Uday_ReactJs/static/js/787.40608543.chunk.js",
@@ -39,14 +39,14 @@
     "static/media/GithubLogo.svg": "/Portfolio_Vijita_Uday_ReactJs/static/media/GithubLogo.9498bc39e828484bddc43fc305d52213.svg",
     "static/media/slick.woff": "/Portfolio_Vijita_Uday_ReactJs/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Portfolio_Vijita_Uday_ReactJs/index.html",
-    "main.dad5b3ec.css.map": "/Portfolio_Vijita_Uday_ReactJs/static/css/main.dad5b3ec.css.map",
+    "main.521e202a.css.map": "/Portfolio_Vijita_Uday_ReactJs/static/css/main.521e202a.css.map",
     "main.bd45203b.js.map": "/Portfolio_Vijita_Uday_ReactJs/static/js/main.bd45203b.js.map",
     "485.2086c44a.chunk.js.map": "/Portfolio_Vijita_Uday_ReactJs/static/js/485.2086c44a.chunk.js.map",
     "787.40608543.chunk.js.map": "/Portfolio_Vijita_Uday_ReactJs/static/js/787.40608543.chunk.js.map",
     "214.942751d0.chunk.js.map": "/Portfolio_Vijita_Uday_ReactJs/static/js/214.942751d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dad5b3ec.css",
+    "static/css/main.521e202a.css",
     "static/js/main.bd45203b.js"
   ]
 }
