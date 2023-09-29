@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Portfolio Website using ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![PortfolioMockup](https://github.com/vijita-u/Portfolio_Vijita_Uday_ReactJs/assets/96591032/44023509-46d4-44e6-88eb-b11481f227f4)
 
-## Available Scripts
+## Live Link : [My Portfolio]()
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+This repository hosts my online portfolio, a showcase of my work and skills. It was built using ReactJS, enriched with smooth animations powered by Framer Motion, and organized with Sass for maintainable style sheets. This project aims to demonstrate my proficiency in web development, UI/UX design, and attention to detail.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-   **Responsive Design**: Ensures a seamless experience across various devices and screen sizes.
+-   **Dynamic Routing**: Utilizes React Router for smooth navigation between project sections.
+-   **Framer Motion Animations**: Enhances user experience with smooth animations.
+-   **Sass Styling**: Maintains organized and modular CSS code for easy maintenance and scalability.
+-   **Project Showcases**: Showcases my projects and skills with short and sweet descriptions.
+-   **Contact Form**: Allows visitors to get in touch with me directly through a convenient contact form.
 
-### `npm test`
+## Challenges faced and my process to create the website
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Originally, I constructed my website using plain HTML, CSS, and JavaScript. However, I soon recognized the potential benefits of transitioning to React. Its dynamic routing capabilities and the desire to further my familiarity with the framework prompted the switch.
 
-### `npm run build`
+Initially, GSAP was my choice for animations, but its lack of seamless integration with React and the complexity of resulting code led me to search for a better solution. That's when I stumbled upon Framer Motion, an exceptional React animation library. Eager to embrace this new tool, I quickly immersed myself in learning its fundamentals and successfully implemented it in my portfolio.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This experience was my first dive into the world of Framer Motion, and I thoroughly enjoyed it.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To run this project locally, follow these steps:
 
-### `npm run eject`
+### 1. Clone the repository to your local machine:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+  git clone https://github.com/vijita-u/Portfolio_Vijita_Uday_ReactJs.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2. Install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+  npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 3. Start the development server:
 
-## Learn More
+```bash
+  npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-   Visit [Live Demo]() to explore the online portfolio.
+-   Navigate through project sections and animations to experience the user interface.
+-   Click on project showcases for more details about the projects.
+-   Use the contact form to get in touch with me.
 
-### Code Splitting
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+-   **ReactJS**: A popular JavaScript library for building user interfaces.
+-   **Framer Motion**: A React animation library for creating smooth and interactive animations.
+-   **Sass**: A CSS preprocessor that enhances stylesheet organization and maintainability.
+-   **React Router**: For handling dynamic routing within the application.
 
-### Analyzing the Bundle Size
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project is open-source and available under the [MIT License](https://github.com/vijita-u/Portfolio_Vijita_Uday_ReactJs/blob/main/LICENSE).
 
-### Making a Progressive Web App
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+-   [Email me](mailto:udayvijita3009@gmail.com?subject=Github%20Message)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-   [Let's connect on LinkedIn](https://www.linkedin.com/in/vijita-uday/)
