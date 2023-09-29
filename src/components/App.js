@@ -1,0 +1,247 @@
+import { useEffect, useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { m, LazyMotion, AnimatePresence } from "framer-motion";
+import Nav from "./Nav";
+import Hero from "./Hero";
+import Aboutme from "./Aboutme";
+import Services from "./Services";
+import ProjectsPage from "./ProjectsPage";
+import Skills from "./Skills";
+import ContactPage from "./ContactPage";
+import Footer from "./Footer";
+import Coverpage from "./Coverpage";
+import SimpleNav from "./SimpleNav";
+import Projects from "./Projects";
+import ProjectDocumentation from "./ProjectDocumentation";
+import { useLocation } from "react-router-dom";
+import {
+	EasybankDoc,
+	amazonDoc,
+	codingcontestDoc,
+	crossITDoc,
+	linkedinDoc,
+	magmaDoc,
+	portfolioDoc,
+	thisisdigitalDoc,
+	tictactoeDoc,
+} from "../sub-components/documentationText";
+import {
+	amazonImages,
+	codingcontestImages,
+	easybankImages,
+	linkedinImages,
+	magmaImages,
+	portfolioImages,
+	thisisdigitalImages,
+	tictactoeImages,
+} from "../sub-components/imagesSkills";
+import MessageConfirmation from "./MessageConfirmation";
+import BackToTop from "../sub-components/BackToTop";
+
+const loadFeatures = () => import("../features.js").then((response) => response.default);
+
+function App() {
+	const [coverAnimationProgress, setCoverAnimationProgress] = useState(true);
+
+	const location = useLocation();
+
+	useEffect(() => {
+		window.scrollTo(0, 0);
+		console.log(location.pathname);
+	}, [location.pathname]);
+
+	return (
+		<div className="app">
+			{coverAnimationProgress ? (
+				<AnimatePresence mode="wait">
+					<Coverpage setCoverAnimationProgress={setCoverAnimationProgress} />
+				</AnimatePresence>
+			) : (
+				<AnimatePresence mode="wait">
+					<Routes location={location} key={location.pathname}>
+						<Route path="/message-confirmation" element={<MessageConfirmation />} />
+						<Route
+							path="/portfolio-website"
+							element={
+								<ProjectDocumentation
+									title={portfolioDoc.title}
+									title2={portfolioDoc.title2}
+									image={portfolioDoc.img}
+									overview={portfolioDoc.overview}
+									tools={portfolioImages}
+									reason={portfolioDoc.reason}
+									additionalFeatures={portfolioDoc.additionalFeatures}
+									githubLink={portfolioDoc.githubLink}
+								/>
+							}
+						/>
+						<Route
+							path="/cross-it"
+							element={
+								<ProjectDocumentation
+									title={crossITDoc.title}
+									title2={crossITDoc.title2}
+									image={crossITDoc.img}
+									overview={crossITDoc.overview}
+									reason={crossITDoc.reason}
+									githubLink={crossITDoc.githubLink}
+								/>
+							}
+						/>
+						<Route
+							path="/tic-tac-toe"
+							element={
+								<ProjectDocumentation
+									title={tictactoeDoc.title}
+									title2={tictactoeDoc.title2}
+									image={tictactoeDoc.img}
+									overview={tictactoeDoc.overview}
+									tools={tictactoeImages}
+									reason={tictactoeDoc.reason}
+									additionalFeatures={tictactoeDoc.additionalFeatures}
+									githubLink={tictactoeDoc.githubLink}
+									liveLink={tictactoeDoc.liveLink}
+								/>
+							}
+						/>
+						<Route
+							path="/coding-contest-watchdog"
+							element={
+								<ProjectDocumentation
+									title={codingcontestDoc.title}
+									title2={codingcontestDoc.title2}
+									image={codingcontestDoc.img}
+									overview={codingcontestDoc.overview}
+									tools={codingcontestImages}
+									reason={codingcontestDoc.reason}
+									additionalFeatures={codingcontestDoc.additionalFeatures}
+									githubLink={codingcontestDoc.githubLink}
+									liveLink={codingcontestDoc.liveLink}
+								/>
+							}
+						/>
+						<Route
+							path="/thisisdigital-landingpage"
+							element={
+								<ProjectDocumentation
+									title={thisisdigitalDoc.title}
+									title2={thisisdigitalDoc.title2}
+									image={thisisdigitalDoc.img}
+									overview={thisisdigitalDoc.overview}
+									originalLink={thisisdigitalDoc.overviewLink.url}
+									originalLinkText={thisisdigitalDoc.overviewLink.text}
+									tools={thisisdigitalImages}
+									reason={thisisdigitalDoc.reason}
+									additionalFeatures={thisisdigitalDoc.additionalFeatures}
+									githubLink={thisisdigitalDoc.githubLink}
+									liveLink={thisisdigitalDoc.liveLink}
+								/>
+							}
+						/>
+						<Route
+							path="/easybank-landingpage"
+							element={
+								<ProjectDocumentation
+									title={EasybankDoc.title}
+									title2={EasybankDoc.title2}
+									image={EasybankDoc.img}
+									overview={EasybankDoc.overview}
+									tools={easybankImages}
+									reason={EasybankDoc.reason}
+									additionalFeatures={EasybankDoc.additionalFeatures}
+									githubLink={EasybankDoc.githubLink}
+									liveLink={EasybankDoc.liveLink}
+								/>
+							}
+						/>
+						<Route
+							path="/magma-clone"
+							element={
+								<ProjectDocumentation
+									title={magmaDoc.title}
+									title2={magmaDoc.title2}
+									image={magmaDoc.img}
+									overview={magmaDoc.overview}
+									originalLink={magmaDoc.overviewLink.url}
+									originalLinkText={magmaDoc.overviewLink.text}
+									tools={magmaImages}
+									reason={magmaDoc.reason}
+									additionalFeatures={magmaDoc.additionalFeatures}
+									githubLink={magmaDoc.githubLink}
+									liveLink={magmaDoc.liveLink}
+								/>
+							}
+						/>
+						<Route
+							path="/linkedin-clone"
+							element={
+								<ProjectDocumentation
+									title={linkedinDoc.title}
+									title2={linkedinDoc.title2}
+									image={linkedinDoc.img}
+									overview={linkedinDoc.overview}
+									tools={linkedinImages}
+									reason={linkedinDoc.reason}
+									additionalFeatures={linkedinDoc.additionalFeatures}
+									githubLink={linkedinDoc.githubLink}
+									liveLink={linkedinDoc.liveLink}
+								/>
+							}
+						/>
+						<Route
+							path="/amazon-clone"
+							element={
+								<ProjectDocumentation
+									title={amazonDoc.title}
+									title2={amazonDoc.title2}
+									image={amazonDoc.img}
+									overview={amazonDoc.overview}
+									tools={amazonImages}
+									reason={amazonDoc.reason}
+									additionalFeatures={amazonDoc.additionalFeatures}
+									githubLink={amazonDoc.githubLink}
+									liveLink={amazonDoc.liveLink}
+								/>
+							}
+						/>
+						<Route
+							path="/projects"
+							element={
+								<>
+									<SimpleNav link="/" />
+									<Projects />
+								</>
+							}
+						/>
+						<Route
+							path="/"
+							element={
+								<LazyMotion features={loadFeatures} strict>
+									<m.div
+										className="app__body"
+										initial={{ opacity: 0 }}
+										animate={{ opacity: 1 }}
+										exit={{ opacity: 0 }}
+										transition={{ duration: 1.2, ease: "easeInOut" }}
+									>
+										<Nav />
+										<Hero />
+										<Aboutme />
+										<Services />
+										<ProjectsPage />
+										<Skills />
+										<ContactPage />
+										<Footer />
+										<BackToTop />
+									</m.div>
+								</LazyMotion>
+							}
+						/>
+					</Routes>
+				</AnimatePresence>
+			)}
+		</div>
+	);
+}
+
+export default App;

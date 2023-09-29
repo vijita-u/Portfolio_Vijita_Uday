@@ -1,0 +1,58 @@
+@use "../scss/utils" as u;
+
+.services {
+	position: relative;
+	width: 100%;
+	height: auto;
+	max-width: 93.75rem;
+	margin-inline: auto;
+
+	@include u.breakpoint-down(small) {
+		min-height: 62.5rem;
+	}
+
+	@include u.breakpoint-up(xlarge) {
+		height: min(70vh, 31.25rem);
+	}
+
+	p {
+		@include u.breakpoint-up(large) {
+			font-size: 1.0625rem;
+		}
+	}
+
+	&__overview {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+	}
+
+	&__body {
+		display: flex;
+		flex-direction: column;
+		gap: 5rem;
+		width: 90%;
+		margin-inline: auto;
+		padding: unset;
+
+		@include u.breakpoint-up(xlarge) {
+			flex-direction: row;
+		}
+	}
+
+	&__options {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+
+		@include u.breakpoint-up(large) {
+			flex-direction: row;
+		}
+	}
+
+	.downloadCV {
+		@include u.breakpoint-up(mid-medium) {
+			opacity: 0;
+		}
+	}
+}

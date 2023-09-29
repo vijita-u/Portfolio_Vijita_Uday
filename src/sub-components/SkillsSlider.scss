@@ -1,0 +1,38 @@
+@use "../scss/utils" as u;
+
+.skillsSlider {
+	position: relative;
+	width: 90%;
+	margin-inline: auto;
+	cursor: pointer;
+}
+
+.skill__container {
+	width: 4.375rem !important;
+	height: 4.375rem !important;
+
+	@include u.breakpoint-up(xxsmall) {
+		width: 5.625rem !important;
+		height: 5.625rem !important;
+	}
+
+	@include u.breakpoint-up(mid-medium) {
+		width: 100px !important;
+		height: 100px !important;
+	}
+
+	@include u.breakpoint-up(medium) {
+		width: 9.375rem !important;
+		height: 5.625rem !important;
+	}
+
+	img {
+		object-fit: contain;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.slick-arrow {
+	display: none !important;
+}

@@ -1,0 +1,184 @@
+@use "../scss/utils" as u;
+
+.nav {
+	max-width: 93.75rem;
+	background-color: var(--light-background);
+	position: sticky;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-inline: 1.875rem;
+	width: 100%;
+	height: 4.125rem;
+	z-index: 999;
+	max-width: 100rem;
+	margin-inline: auto;
+
+	@include u.breakpoint-up(large) {
+		height: 5rem;
+		padding-inline: 3.125rem;
+	}
+
+	&__logo {
+		font-family: var(--logo-font);
+		font-size: 1.875rem;
+		color: var(--primary-color);
+		cursor: pointer;
+
+		@include u.breakpoint-up(medium) {
+			font-size: 2.1875rem;
+		}
+
+		@include u.breakpoint-up(large) {
+			font-size: 2.5rem;
+		}
+	}
+
+	&__cvMenu {
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
+		gap: 3rem;
+	}
+
+	&__hamburger {
+		display: flex;
+		cursor: pointer;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 0.875rem;
+		padding-top: 2px;
+		position: relative;
+		z-index: 99;
+
+		@include u.breakpoint-down(large) {
+			padding-top: 2px;
+		}
+
+		.firstLine {
+			height: 2px;
+			width: 1.0625rem;
+			background-color: var(--primary-color);
+			border-radius: 3.125rem;
+			transition: all 400ms ease-in-out;
+		}
+
+		.secondLine {
+			height: 3px;
+			width: 1.875rem;
+			background-color: var(--primary-color);
+			border-radius: 3.125rem;
+			transition: all 400ms ease-in-out;
+		}
+	}
+
+	&__toggleInput {
+		display: none;
+
+		&:checked ~ .nav__toggleLabel > .nav__hamburger {
+			margin-top: -0.625rem;
+			transition: all 400ms ease-in-out;
+		}
+
+		&:checked ~ .nav__toggleLabel > .nav__hamburger > .firstLine {
+			transform: rotate(42deg) translate(5%, 5%);
+			width: 1.875rem;
+			background-color: var(--light-background);
+			transform-origin: 5% 50%;
+			transition: all 300ms ease-in-out;
+		}
+
+		&:checked ~ .nav__toggleLabel > .nav__hamburger > .secondLine {
+			transform: rotate(-45deg) translate(-5%, -50%);
+			transform-origin: center;
+			height: 0.125rem;
+			width: 1.875rem;
+			background-color: var(--light-background);
+			transition: all 300ms ease-in-out;
+
+			@include u.breakpoint-down(large) {
+				transform: rotate(-45deg) translate(-8%, -142%);
+			}
+		}
+
+		&:checked ~ a .downloadCV {
+			color: var(--dark-blue);
+			border-color: var(--dark-blue);
+
+			&::before {
+				content: "";
+				position: absolute;
+				inset: 0;
+				background-color: var(--dark-blue);
+				transform: scale(0, 1);
+				transform-origin: center;
+				transition: transform 400ms ease-in-out;
+			}
+		}
+
+		&:checked ~ a:hover .downloadCV {
+			color: var(--primary-color);
+			transition: all 400ms ease-in-out;
+
+			&::before {
+				transform: scale(1);
+			}
+
+			&:hover span {
+				color: var(--primary-color);
+			}
+		}
+
+		&:checked ~ a .downloadCV > svg > path {
+			fill: var(--dark-blue);
+			transition: all 400ms ease-in-out;
+		}
+
+		&:checked ~ a:hover .downloadCV > svg > path {
+			fill: var(--primary-color);
+			transition: all 400ms ease-in-out;
+		}
+
+		&:checked ~ .nav__options .nav__container {
+			opacity: 1;
+		}
+	}
+
+	&__options {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		background-color: var(--primary-color);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		transform-origin: bottom;
+
+		@include u.breakpoint-up(large) {
+			right: 0;
+			left: unset;
+		}
+	}
+
+	&__container {
+		opacity: 0;
+		transition: opacity 400ms ease-in-out;
+	}
+
+	&__linkContainer {
+		overflow: hidden;
+	}
+
+	.downloadCV {
+		position: relative;
+		z-index: 1000;
+		@include u.breakpoint-down(mid-medium) {
+			display: none;
+		}
+	}
+}

@@ -1,0 +1,91 @@
+@use "./scss/utils" as u;
+
+*,
+*::before,
+::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 100%;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: var(--text-font), sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: var(--light-background);
+	color: var(--primary-color);
+
+	&::-webkit-scrollbar {
+		width: 5px;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background-color: darkgray;
+		outline: none;
+		border: none;
+		border-radius: 3.125rem;
+		transition: all 200ms ease-in-out;
+
+		&:hover {
+			background-color: rgb(119, 109, 96);
+			transition: all 200ms ease-in-out;
+		}
+	}
+}
+
+a,
+a:hover,
+a:visited {
+	text-decoration: none;
+	color: var(--primary-color);
+}
+
+li {
+	list-style: none;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: 1.5pt;
+}
+
+p {
+	line-height: 1.5;
+	font-family: var(--JostL-font);
+	color: var(--light-white);
+
+	@include u.breakpoint-up(xxsmall) {
+		font-size: 1.125rem;
+	}
+
+	@include u.breakpoint-up(mid-xsmall) {
+		line-height: 1.8;
+	}
+
+	@include u.breakpoint-up(large) {
+		font-size: 1.25rem;
+	}
+}
+
+.cv_container {
+	padding: 1.25rem 1.875rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+
+	@include u.breakpoint-down(mid-xsmall) {
+		padding: 0.625rem 1.25rem;
+	}
+}
+
+.container {
+	padding-inline: 4.375rem;
+	margin-top: 1.25rem;
+	margin-bottom: 4.375rem;
+}

@@ -1,0 +1,24 @@
+@use "../scss/utils" as u;
+
+.backToTop {
+	&__arrow {
+		position: sticky;
+		z-index: 100;
+		bottom: 3%;
+		left: 77%;
+		cursor: pointer;
+
+		@include u.breakpoint-up(xxsmall) {
+			left: 81%;
+		}
+		@include u.breakpoint-up(mid-xsmall) {
+			left: 87%;
+		}
+		@include u.breakpoint-up(mid-small) {
+			left: 90%;
+		}
+		@include u.breakpoint-up(mid-medium) {
+			left: 93%;
+		}
+	}
+}

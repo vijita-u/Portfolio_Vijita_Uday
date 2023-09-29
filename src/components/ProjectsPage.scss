@@ -1,0 +1,69 @@
+@use "../scss/utils" as u;
+
+.projects {
+	background-color: var(--dark-background);
+	padding-bottom: 5.625rem;
+	max-width: 93.75rem;
+	margin-inline: auto;
+
+	&__body {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 6rem;
+
+		@include u.breakpoint-down(large) {
+			width: 90%;
+			margin-inline: auto;
+			padding: unset;
+		}
+	}
+
+	&__header {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 3rem;
+
+		@include u.breakpoint-down(xxsmall) {
+			gap: 2.5rem;
+		}
+
+		.title {
+			text-align: center;
+		}
+	}
+
+	&__navigation {
+		display: flex;
+		flex-direction: row;
+		gap: 1rem;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+
+		@include u.breakpoint-down(xxsmall) {
+			gap: 0.8rem;
+		}
+	}
+
+	&__projectSection {
+		display: flex;
+		flex-direction: column;
+		gap: 2.5rem;
+
+		@include u.breakpoint-up(medium) {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-template-rows: repeat(2, 1fr);
+		}
+	}
+
+	.downloadCV {
+		@include u.breakpoint-up(mid-medium) {
+			opacity: 0;
+		}
+	}
+}

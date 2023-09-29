@@ -1,0 +1,169 @@
+@use "../scss/utils" as u;
+
+.aboutme {
+	max-width: 93.75rem;
+	margin-inline: auto;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+
+	@include u.breakpoint-up(mid-medium) {
+		flex-direction: row-reverse;
+		height: 37.5rem;
+	}
+
+	.downloadCV {
+		@include u.breakpoint-up(mid-medium) {
+			opacity: 0;
+		}
+	}
+}
+
+.AMhero {
+	background-color: var(--yellow-background);
+	height: 31.25rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	@include u.breakpoint-down(xxsmall) {
+		height: 60vh;
+	}
+
+	@include u.breakpoint-up(mid-medium) {
+		flex: 0.4;
+		height: 100%;
+	}
+
+	&__header {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 1rem;
+		width: 90%;
+		margin-inline: auto;
+		margin-top: 1.625rem;
+		padding-bottom: 1.25rem;
+
+		@include u.breakpoint-up(xsmall) {
+			width: 80%;
+		}
+
+		@include u.breakpoint-up(mid-medium) {
+			margin-inline: auto;
+			margin-top: 3.75rem;
+			width: 95%;
+			padding-left: unset;
+			padding-bottom: 2.5rem;
+		}
+
+		.line1,
+		.line2 {
+			display: flex;
+			align-items: flex-end;
+			gap: 0.4375rem;
+		}
+
+		h2 {
+			font-size: 0.8125rem;
+			font-family: var(--JostR-font);
+			text-align: end;
+			line-height: 1;
+			letter-spacing: 1.5pt;
+
+			@include u.breakpoint-up(xxsmall) {
+				font-size: 1.125rem;
+			}
+
+			@include u.breakpoint-up(mid-xsmall) {
+				font-size: 1.25rem;
+			}
+
+			@include u.breakpoint-up(xsmall) {
+				font-size: 1.5rem;
+			}
+
+			@include u.breakpoint-up(mid-medium) {
+				font-size: 1.0625rem;
+			}
+
+			@include u.breakpoint-up(large) {
+				font-size: 1.375rem;
+			}
+		}
+
+		.line1 {
+			h2 {
+				span {
+					font-family: var(--JostL-font);
+					color: var(--secondary-color);
+				}
+			}
+
+			svg {
+				height: 0.75rem;
+			}
+		}
+
+		.line2 {
+			padding-left: 1.875rem;
+
+			@include u.breakpoint-up(mid-medium) {
+				margin-inline: auto;
+			}
+
+			h2 {
+				span {
+					font-family: var(--hero-font-1);
+					color: var(--lavender);
+				}
+			}
+
+			svg {
+				width: 0.75rem;
+			}
+		}
+	}
+
+	&__image {
+		display: flex;
+		align-items: flex-end;
+		justify-content: flex-end;
+		height: 100%;
+		width: 100%;
+
+		img {
+			@include u.breakpoint-down(xxsmall) {
+				max-width: 17.5rem;
+			}
+		}
+	}
+}
+
+.AMcontent {
+	background-color: var(--dark-background);
+
+	@include u.breakpoint-up(mid-medium) {
+		flex: 0.8;
+		padding-inline: 1.875rem;
+	}
+
+	&__body {
+		width: 90%;
+		padding-bottom: 2.5rem;
+		margin-inline: auto;
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		justify-content: space-evenly;
+	}
+
+	&__info {
+		display: flex;
+		flex-direction: column;
+		gap: 1.875rem;
+		letter-spacing: 0.5pt;
+	}
+}
