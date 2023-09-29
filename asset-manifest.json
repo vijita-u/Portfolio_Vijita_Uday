@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.39f76968.css",
-    "main.js": "/static/js/main.1ef64d72.js",
+    "main.js": "/static/js/main.8d537e31.js",
     "static/js/485.2086c44a.chunk.js": "/static/js/485.2086c44a.chunk.js",
     "static/js/787.40608543.chunk.js": "/static/js/787.40608543.chunk.js",
     "static/js/214.942751d0.chunk.js": "/static/js/214.942751d0.chunk.js",
@@ -12,7 +12,7 @@
     "static/media/Profile Photo.svg": "/static/media/Profile Photo.b9fff719ad2a9d6b299b0bbd1645f3ab.svg",
     "static/media/PortfolioMockup.png": "/static/media/PortfolioMockup.98983bb3e0fa55ee8482.png",
     "static/media/CrossITMockup.png": "/static/media/CrossITMockup.0ea2718cb21bcebf2b59.png",
-    "static/media/Vijita Udayabhanu.pdf": "/static/media/Vijita Udayabhanu.44c64ba8c0e79243d94c.pdf",
+    "static/media/Vijita Udayabhanu.pdf": "/static/media/Vijita Udayabhanu.5e7646fbb6e651968559.pdf",
     "static/media/cherrybombone-regular.ttf": "/static/media/cherrybombone-regular.cdf8cfb7f50d6b729c49.ttf",
     "static/media/bungee.outline-regular.otf": "/static/media/bungee.outline-regular.0d1ea6803e3ff7f9cfd9.otf",
     "static/media/CodingContestMockup.png": "/static/media/CodingContestMockup.5fe61ec5a16bc692090d.png",
@@ -40,13 +40,13 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.39f76968.css.map": "/static/css/main.39f76968.css.map",
-    "main.1ef64d72.js.map": "/static/js/main.1ef64d72.js.map",
+    "main.8d537e31.js.map": "/static/js/main.8d537e31.js.map",
     "485.2086c44a.chunk.js.map": "/static/js/485.2086c44a.chunk.js.map",
     "787.40608543.chunk.js.map": "/static/js/787.40608543.chunk.js.map",
     "214.942751d0.chunk.js.map": "/static/js/214.942751d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.39f76968.css",
-    "static/js/main.1ef64d72.js"
+    "static/js/main.8d537e31.js"
   ]
 }
