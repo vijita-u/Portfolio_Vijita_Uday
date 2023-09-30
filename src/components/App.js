@@ -47,8 +47,18 @@ function App() {
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
-		console.log(location.pathname);
 	}, [location.pathname]);
+
+	useEffect(() => {
+		if (navigator.userAgent.match(/samsung/i)) {
+			alert(
+				"Your browser (Samsung Internet) may not show this website" +
+					" correctly. Please consider using a standards-compliant" +
+					" browser instead. \n\n" +
+					"We recommend Firefox, Microsoft Edge, or Google Chrome."
+			);
+		}
+	}, []);
 
 	return (
 		<div className="app">
@@ -61,7 +71,7 @@ function App() {
 					<Routes location={location} key={location.pathname}>
 						<Route path="/message-confirmation" element={<MessageConfirmation />} />
 						<Route
-							path="/portfolio-website"
+							path="/Portfolio_Vijita_Uday_ReactJs/portfolio-website"
 							element={
 								<ProjectDocumentation
 									title={portfolioDoc.title}
@@ -76,7 +86,7 @@ function App() {
 							}
 						/>
 						<Route
-							path="/cross-it"
+							path="/Portfolio_Vijita_Uday_ReactJs/cross-it"
 							element={
 								<ProjectDocumentation
 									title={crossITDoc.title}
@@ -89,7 +99,7 @@ function App() {
 							}
 						/>
 						<Route
-							path="/tic-tac-toe"
+							path="/Portfolio_Vijita_Uday_ReactJs/tic-tac-toe"
 							element={
 								<ProjectDocumentation
 									title={tictactoeDoc.title}
@@ -105,7 +115,7 @@ function App() {
 							}
 						/>
 						<Route
-							path="/coding-contest-watchdog"
+							path="/Portfolio_Vijita_Uday_ReactJs/coding-contest-watchdog"
 							element={
 								<ProjectDocumentation
 									title={codingcontestDoc.title}
@@ -121,7 +131,7 @@ function App() {
 							}
 						/>
 						<Route
-							path="/thisisdigital-landingpage"
+							path="/Portfolio_Vijita_Uday_ReactJs/thisisdigital-landingpage"
 							element={
 								<ProjectDocumentation
 									title={thisisdigitalDoc.title}
@@ -139,7 +149,7 @@ function App() {
 							}
 						/>
 						<Route
-							path="/easybank-landingpage"
+							path="/Portfolio_Vijita_Uday_ReactJs/easybank-landingpage"
 							element={
 								<ProjectDocumentation
 									title={EasybankDoc.title}
@@ -155,7 +165,7 @@ function App() {
 							}
 						/>
 						<Route
-							path="/magma-clone"
+							path="/Portfolio_Vijita_Uday_ReactJs/magma-clone"
 							element={
 								<ProjectDocumentation
 									title={magmaDoc.title}
@@ -173,7 +183,7 @@ function App() {
 							}
 						/>
 						<Route
-							path="/linkedin-clone"
+							path="/Portfolio_Vijita_Uday_ReactJs/linkedin-clone"
 							element={
 								<ProjectDocumentation
 									title={linkedinDoc.title}
@@ -189,7 +199,7 @@ function App() {
 							}
 						/>
 						<Route
-							path="/amazon-clone"
+							path="/Portfolio_Vijita_Uday_ReactJs/amazon-clone"
 							element={
 								<ProjectDocumentation
 									title={amazonDoc.title}
@@ -205,16 +215,16 @@ function App() {
 							}
 						/>
 						<Route
-							path="/projects"
+							path="/Portfolio_Vijita_Uday_ReactJs/projects"
 							element={
 								<>
-									<SimpleNav link="/" />
+									<SimpleNav link="/Portfolio_Vijita_Uday_ReactJs/" />
 									<Projects />
 								</>
 							}
 						/>
 						<Route
-							path="/"
+							path="/Portfolio_Vijita_Uday_ReactJs"
 							element={
 								<LazyMotion features={loadFeatures} strict>
 									<m.div

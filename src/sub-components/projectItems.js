@@ -34,7 +34,7 @@ export const allProjectItems = [
 		title: "Full-stack Amazon Clone",
 		summary:
 			"Full-stack amazon clone with user authentication and payment functionality. Built using React JS, Firebase cloud functions, Stripe and many other interesting technologies.",
-		link: "/amazon-clone",
+		link: "/Portfolio_Vijita_Uday_ReactJs/amazon-clone",
 		category: "all",
 		githubLink: "https://github.com/vijita-u/Amazon-Clone-ReactJs",
 		liveLink: "https://clone-using-react-js-c2ec1.web.app/",
@@ -46,7 +46,7 @@ export const allProjectItems = [
 		summary:
 			"LinkedIn clone with user authentication functionality built using an array of technologies, including React JS, Redux, Firebase, and more.",
 		category: "all",
-		link: "/linkedin-clone",
+		link: "/Portfolio_Vijita_Uday_ReactJs/linkedin-clone",
 		githubLink: "https://github.com/vijita-u/LinkedIn-Clone-ReactJs/",
 		liveLink: "https://linkedin-clone-using-reactjs.web.app/",
 	},
@@ -57,7 +57,7 @@ export const allProjectItems = [
 		summary:
 			"Recreated a website inspired by Magma , featuring GSAP, Locomotive, ScrollTrigger, and HTML5 Canvas to showcase captivating visuals and animations.",
 		category: "all",
-		link: "/magma-clone",
+		link: "/Portfolio_Vijita_Uday_ReactJs/magma-clone",
 		githubLink: "https://github.com/vijita-u/Magma_Landing-Page_Clone",
 		liveLink: "https://vijita-u.github.io/Magma_Landing-Page_Clone/",
 	},
@@ -68,7 +68,7 @@ export const allProjectItems = [
 		summary:
 			"An intermediate-level challenge on 'Frontend Mentor' to practice web responsiveness, sass and basics of website development.",
 		category: "all",
-		link: "/easybank-landingpage",
+		link: "/Portfolio_Vijita_Uday_ReactJs/easybank-landingpage",
 		githubLink: "https://github.com/vijita-u/EasyBank_Landing_Page",
 		liveLink: "https://vijita-u.github.io/EasyBank_Landing_Page/",
 	},
@@ -82,7 +82,7 @@ export const projectItems = [
 		summary:
 			"Full-stack amazon clone with user authentication and payment functionality. Built using React JS, Firebase cloud functions, Stripe and many other interesting technologies.",
 		category: "all app",
-		link: "/amazon-clone",
+		link: "/Portfolio_Vijita_Uday_ReactJs/amazon-clone",
 		githubLink: "https://github.com/vijita-u/Amazon-Clone-ReactJs",
 		liveLink: "https://clone-using-react-js-c2ec1.web.app/",
 	},
@@ -93,7 +93,7 @@ export const projectItems = [
 		summary:
 			"LinkedIn clone with user authentication functionality built using an array of technologies, including React JS, Redux, Firebase, and more.",
 		category: "all app",
-		link: "/linkedin-clone",
+		link: "/Portfolio_Vijita_Uday_ReactJs/linkedin-clone",
 		githubLink: "https://github.com/vijita-u/LinkedIn-Clone-ReactJs/",
 		liveLink: "https://linkedin-clone-using-reactjs.web.app/",
 	},
@@ -104,7 +104,7 @@ export const projectItems = [
 		summary:
 			"Recreated a website inspired by Magma , featuring GSAP, Locomotive, ScrollTrigger, and HTML5 Canvas to showcase captivating visuals and animations.",
 		category: " all website",
-		link: "/magma-clone",
+		link: "/Portfolio_Vijita_Uday_ReactJs/magma-clone",
 		githubLink: "https://github.com/vijita-u/Magma_Landing-Page_Clone",
 		liveLink: "https://vijita-u.github.io/Magma_Landing-Page_Clone/",
 	},
@@ -115,7 +115,7 @@ export const projectItems = [
 		summary:
 			"An intermediate-level challenge on Frontend Mentor to practice web responsiveness, sass and basics of website development.",
 		category: "all website",
-		link: "/easybank-landingpage",
+		link: "/Portfolio_Vijita_Uday_ReactJs/easybank-landingpage",
 		githubLink: "https://github.com/vijita-u/EasyBank_Landing_Page",
 		liveLink: "https://vijita-u.github.io/EasyBank_Landing_Page/",
 	},
@@ -125,7 +125,7 @@ export const projectItems = [
 		title: "'this is digital's Landing Page Clone",
 		summary: "Created to kickstart my journey with GSAP Timelines, Scroll Trigger, and Swiper JS.",
 		category: "web",
-		link: "/thisisdigital-landingpage",
+		link: "/Portfolio_Vijita_Uday_ReactJs/thisisdigital-landingpage",
 		githubLink: "https://github.com/vijita-u/thisisdigital_Landing-page_Clone",
 		liveLink: "https://vijita-u.github.io/thisisdigital_Landing-page_Clone/",
 	},
@@ -136,7 +136,7 @@ export const projectItems = [
 		summary:
 			"My first React project built with the help of React's official documentation. Furthermore, solved a few additional challenges provided by them to get a better idea of the framework.",
 		category: "app",
-		link: "/tic-tac-toe",
+		link: "/Portfolio_Vijita_Uday_ReactJs/tic-tac-toe",
 		githubLink: "https://github.com/vijita-u/Tic-Tac-Toe_ReactJS/",
 		liveLink: "https://vijita-u.github.io/Tic-Tac-Toe_ReactJS/",
 	},
@@ -147,7 +147,7 @@ export const projectItems = [
 		summary:
 			"A dynamic web application offering a real-time database of forthcoming coding contests, continuously updated through AJAX requests.",
 		category: "app",
-		link: "/coding-contest-watchdog",
+		link: "/Portfolio_Vijita_Uday_ReactJs/coding-contest-watchdog",
 		githubLink: "https://github.com/vijita-u/Coding-Contest-Watchdog",
 		liveLink: "https://vijita-u.github.io/Coding-Contest-Watchdog/",
 	},
@@ -158,7 +158,7 @@ export const projectItems = [
 		summary:
 			"I've developed an online portfolio that reflects both myself and my projects, utilizing React JS and incorporating Framer Motion for animations.",
 		category: "web",
-		link: "/portfolio-website",
+		link: "/Portfolio_Vijita_Uday_ReactJs/portfolio-website",
 		githubLink: "https://github.com/vijita-u/Portfolio_Vijita_Uday_ReactJs",
 	},
 	{
@@ -168,7 +168,7 @@ export const projectItems = [
 		summary:
 			"This is an ongoing full-stack project designed to revolutionize how students manage their time, tasks, and goals. While there is no code yet, the project is currently in the design phase, with Figma designs nearly complete.",
 		category: "wip",
-		link: "/cross-it",
+		link: "/Portfolio_Vijita_Uday_ReactJs/cross-it",
 		githubLink: "https://github.com/vijita-u/Cross-IT",
 	},
 ];

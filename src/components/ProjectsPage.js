@@ -59,7 +59,7 @@ function ProjectsPage() {
 						))}
 					</div>
 				</Reveal>
-				<div className="projects__seeAll" onClick={() => navigate("/projects")}>
+				<div className="projects__seeAll" onClick={() => navigate("/Portfolio_Vijita_Uday_ReactJs/projects")}>
 					<ProjectNavigationBtn id="seeAll" btnName="See all projects" className="button" />
 				</div>
 			</div>

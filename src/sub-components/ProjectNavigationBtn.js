@@ -1,6 +1,5 @@
 import React from "react";
 import "./ProjectNavigationBtn.scss";
-import Reveal from "./Reveal";
 
 function ProjectNavigationBtn({ id, className, btnName, onClick }) {
 	return (

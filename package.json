@@ -2,7 +2,7 @@
   "name": "portfolio_vijita",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vijita-u.github.io/",
+  "homepage": "https://vijita-u.github.io/Portfolio_Vijita_Uday_ReactJs/",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@testing-library/jest-dom": "^5.17.0",

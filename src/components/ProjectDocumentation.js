@@ -29,7 +29,7 @@ function ProjectDocumentation({
 				exit={{ opacity: 0 }}
 				transition={{ duration: 0.5, ease: "easeInOut" }}
 			>
-				<SimpleNav link="/projects" />
+				<SimpleNav link="/Portfolio_Vijita_Uday_ReactJs/projects" />
 				<div className="projectDocumentation__body">
 					<h1 className="projectDocumentation__title">
 						{title} <span>{title2}</span>

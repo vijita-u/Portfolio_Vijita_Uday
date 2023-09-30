@@ -8,7 +8,7 @@ function MessageConfirmation() {
 		<div className="messageConfirmation">
 			<div className="messageConfirmation__box">
 				<svg
-					onClick={() => navigate("/")}
+					onClick={() => navigate("/Portfolio_Vijita_Uday_ReactJs/")}
 					className="backBtn"
 					width="40"
 					height="35"

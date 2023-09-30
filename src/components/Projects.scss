@@ -1,17 +1,18 @@
-@use '../scss/utils' as u;
+@use "../scss/utils" as u;
 
 .allProjects {
 	background-color: var(--dark-background);
 	position: relative;
 	width: 100%;
 	height: auto;
-	padding: 3.125rem .625rem;
+	padding: 3.125rem 0.625rem;
 	max-width: 93.75rem;
+	margin-inline: auto;
 	display: flex;
 	flex-direction: column;
 	gap: 3rem;
 
-    @include u.breakpoint-up(mid-medium) {
-        padding-inline: 4.375rem;
-    }
+	@include u.breakpoint-up(mid-medium) {
+		padding-inline: 4.375rem;
+	}
 }
