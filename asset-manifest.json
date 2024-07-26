@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Portfolio_Vijita_Uday_ReactJs/static/css/main.521e202a.css",
-    "main.js": "/Portfolio_Vijita_Uday_ReactJs/static/js/main.247b9f6c.js",
+    "main.css": "/Portfolio_Vijita_Uday_ReactJs/static/css/main.c56121d6.css",
+    "main.js": "/Portfolio_Vijita_Uday_ReactJs/static/js/main.7c11b37a.js",
     "static/js/485.2086c44a.chunk.js": "/Portfolio_Vijita_Uday_ReactJs/static/js/485.2086c44a.chunk.js",
     "static/js/787.40608543.chunk.js": "/Portfolio_Vijita_Uday_ReactJs/static/js/787.40608543.chunk.js",
     "static/js/214.942751d0.chunk.js": "/Portfolio_Vijita_Uday_ReactJs/static/js/214.942751d0.chunk.js",
+    "static/media/FoodOrderingMockup.png": "/Portfolio_Vijita_Uday_ReactJs/static/media/FoodOrderingMockup.61f4928ff086264e0c84.png",
     "static/media/EasyBank Mockup.png": "/Portfolio_Vijita_Uday_ReactJs/static/media/EasyBank Mockup.a627dccc79a7c0f04dd7.png",
     "static/media/Digital Mockup.png": "/Portfolio_Vijita_Uday_ReactJs/static/media/Digital Mockup.2e05e5a6ce8ed0d7a98b.png",
     "static/media/Amazon Mockup.png": "/Portfolio_Vijita_Uday_ReactJs/static/media/Amazon Mockup.8cf7b944ff5c865255c1.png",
@@ -26,6 +27,7 @@
     "static/media/Jost-Light-BF63dc52d080910.ttf": "/Portfolio_Vijita_Uday_ReactJs/static/media/Jost-Light-BF63dc52d080910.3190500f570b2fb9409f.ttf",
     "static/media/Jost-Bold-BF63dc52d022010.ttf": "/Portfolio_Vijita_Uday_ReactJs/static/media/Jost-Bold-BF63dc52d022010.d26e8e629f57716e90a0.ttf",
     "static/media/Jost-Regular-BF63dc52d2b8031.ttf": "/Portfolio_Vijita_Uday_ReactJs/static/media/Jost-Regular-BF63dc52d2b8031.ca33bfb0214ee2e6936a.ttf",
+    "static/media/SketchBoardMockup.png": "/Portfolio_Vijita_Uday_ReactJs/static/media/SketchBoardMockup.04edf86ceb39dd1058c3.png",
     "static/media/contactPage_desktop_subBG.svg": "/Portfolio_Vijita_Uday_ReactJs/static/media/contactPage_desktop_subBG.c1f3148f23d41ef2f689.svg",
     "static/media/jost-variable.ttf": "/Portfolio_Vijita_Uday_ReactJs/static/media/jost-variable.a3848e32c575a3614797.ttf",
     "static/media/contactPage_mobileBG.svg": "/Portfolio_Vijita_Uday_ReactJs/static/media/contactPage_mobileBG.0ff18eea9c76c3e5f11b.svg",
@@ -39,14 +41,14 @@
     "static/media/GithubLogo.svg": "/Portfolio_Vijita_Uday_ReactJs/static/media/GithubLogo.9498bc39e828484bddc43fc305d52213.svg",
     "static/media/slick.woff": "/Portfolio_Vijita_Uday_ReactJs/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Portfolio_Vijita_Uday_ReactJs/index.html",
-    "main.521e202a.css.map": "/Portfolio_Vijita_Uday_ReactJs/static/css/main.521e202a.css.map",
-    "main.247b9f6c.js.map": "/Portfolio_Vijita_Uday_ReactJs/static/js/main.247b9f6c.js.map",
+    "main.c56121d6.css.map": "/Portfolio_Vijita_Uday_ReactJs/static/css/main.c56121d6.css.map",
+    "main.7c11b37a.js.map": "/Portfolio_Vijita_Uday_ReactJs/static/js/main.7c11b37a.js.map",
     "485.2086c44a.chunk.js.map": "/Portfolio_Vijita_Uday_ReactJs/static/js/485.2086c44a.chunk.js.map",
     "787.40608543.chunk.js.map": "/Portfolio_Vijita_Uday_ReactJs/static/js/787.40608543.chunk.js.map",
     "214.942751d0.chunk.js.map": "/Portfolio_Vijita_Uday_ReactJs/static/js/214.942751d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.521e202a.css",
-    "static/js/main.247b9f6c.js"
+    "static/css/main.c56121d6.css",
+    "static/js/main.7c11b37a.js"
   ]
 }
