@@ -7,7 +7,9 @@ import TicTacToeMockupImage from "../images/Tic-Tac-Toe Mockup.png";
 import CodingContestMockup from "../images/CodingContestMockup.png";
 import PortfolioMockup from "../images/PortfolioMockup.png";
 import CrossItMockup from "../images/CrossITMockup.png";
-import RupaliLogisticsMockup from "../images/RupaliLogistics Mockup.png"
+import RupaliLogisticsMockup from "../images/RupaliLogistics Mockup.png";
+import FoodOrderingMockup from "../images/FoodOrderingMockup.png";
+import SketchBoardMockup from "../images/SketchBoardMockup.png";
 
 export const filters = [
 	{
@@ -180,5 +182,26 @@ export const projectItems = [
 		category: "wip",
 		link: "/Portfolio_Vijita_Uday_ReactJs/cross-it",
 		githubLink: "https://github.com/vijita-u/Cross-IT",
+	},
+	{
+		image: FoodOrderingMockup,
+		alt: "Honger: Food Ordering App",
+		title: "Honger: Food Ordering App",
+		summary:
+			"This project implements a food ordering application similar to Swiggy. It utilizes Swiggy's live API to fetch restaurant data and integrates Redux for state management. Users can browse restaurants, add items to their cart, and manage their orders.",
+		category: "wip",
+		link: "/Portfolio_Vijita_Uday_ReactJs/honger-food-ordering-app",
+		githubLink: "https://github.com/vijita-u/Food-ordering-application",
+	},
+	{
+		image: SketchBoardMockup,
+		alt: "Sketch Board",
+		title: "Sketch Board",
+		summary:
+			"A sketch board layout with realtime 2D graphics using Canvas API.",
+		category: "web app",
+		link: "/Portfolio_Vijita_Uday_ReactJs/sketch-board",
+		liveLink: "https://sketch-board-9djl.onrender.com/",
+		githubLink: "https://github.com/vijita-u/sketch-board",
 	},
 ];

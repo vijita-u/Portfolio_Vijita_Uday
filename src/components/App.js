@@ -24,7 +24,9 @@ import {
 	portfolioDoc,
 	thisisdigitalDoc,
 	tictactoeDoc,
-	rupaliLogisticsDoc
+	rupaliLogisticsDoc,
+	foodOrderingDoc,
+	sketchBoardDoc,
 } from "../sub-components/documentationText";
 import {
 	amazonImages,
@@ -35,6 +37,8 @@ import {
 	portfolioImages,
 	thisisdigitalImages,
 	tictactoeImages,
+	foodOrderingAppImages,
+	sketchBoardImages,
 } from "../sub-components/imagesSkills";
 import MessageConfirmation from "./MessageConfirmation";
 import BackToTop from "../sub-components/BackToTop";
@@ -71,6 +75,38 @@ function App() {
 				<AnimatePresence mode="wait">
 					<Routes location={location} key={location.pathname}>
 						<Route path="/message-confirmation" element={<MessageConfirmation />} />
+						<Route
+							path="/Portfolio_Vijita_Uday_ReactJs/sketch-board"
+							element={
+								<ProjectDocumentation
+									title={sketchBoardDoc.title}
+									title2={sketchBoardDoc.title2}
+									image={sketchBoardDoc.img}
+									overview={sketchBoardDoc.overview}
+									tools={sketchBoardImages}
+									reason={sketchBoardDoc.reason}
+									additionalFeatures={sketchBoardDoc.additionalFeatures}
+									githubLink={sketchBoardDoc.githubLink}
+									liveLink={sketchBoardDoc.liveLink}
+								/>
+							}
+						/>
+						<Route
+							path="/Portfolio_Vijita_Uday_ReactJs/honger-food-ordering-app"
+							element={
+								<ProjectDocumentation
+									title={foodOrderingDoc.title}
+									title2={foodOrderingDoc.title2}
+									image={foodOrderingDoc.img}
+									overview={foodOrderingDoc.overview}
+									tools={foodOrderingAppImages}
+									reason={foodOrderingDoc.reason}
+									additionalFeatures={foodOrderingDoc.additionalFeatures}
+									githubLink={foodOrderingDoc.githubLink}
+									liveLink={foodOrderingDoc.liveLink}
+								/>
+							}
+						/>
 						<Route
 							path="/Portfolio_Vijita_Uday_ReactJs/rupali-logistics-landing-page"
 							element={

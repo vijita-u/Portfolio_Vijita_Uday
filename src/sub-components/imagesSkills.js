@@ -25,6 +25,26 @@ const images = [
 		alt: "Redux",
 	},
 	{
+		id: 200,
+		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png",
+		alt: "Tailwind CSS",
+	},
+	{
+		id: 202,
+		src: "https://iconape.com/wp-content/png_logo_vector/jest-logo.png",
+		alt: "JEST",
+	},
+	{
+		id: 203,
+		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Babel_Logo.svg/2560px-Babel_Logo.svg.png",
+		alt: "Babel",
+	},
+	{
+		id: 201,
+		src: "https://user-images.githubusercontent.com/19409/135924939-03845d0b-e7bb-414b-89b6-e627dfa9f614.png",
+		alt: "ParcelJS",
+	},
+	{
 		id: 5,
 		src: "https://git-scm.com/images/logos/downloads/Git-Logo-White.png",
 		alt: "Git",
@@ -528,5 +548,91 @@ export const tictactoeImages = [
 		alt: "VS Code",
 	},
 ];
+
+export const foodOrderingAppImages = [
+	{
+		id: 1,
+		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+		alt: "React",
+	},
+	{
+		id: 3,
+		src: "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
+		alt: "JS",
+	},
+	{
+		id: 199,
+		src: "https://static-00.iconduck.com/assets.00/redux-icon-2048x1945-ahvhunxp.png",
+		alt: "Redux",
+	},
+	{
+		id: 200,
+		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png",
+		alt: "Tailwind CSS",
+	},
+	{
+		id: 202,
+		src: "https://iconape.com/wp-content/png_logo_vector/jest-logo.png",
+		alt: "JEST",
+	},
+	{
+		id: 203,
+		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Babel_Logo.svg/2560px-Babel_Logo.svg.png",
+		alt: "Babel",
+	},
+	{
+		id: 201,
+		src: "https://user-images.githubusercontent.com/19409/135924939-03845d0b-e7bb-414b-89b6-e627dfa9f614.png",
+		alt: "ParcelJS",
+	},
+	{
+		id: 6,
+		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/2560px-Git-logo.svg.png",
+		alt: "Git",
+	},
+	{
+		id: 7,
+		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png",
+		alt: "Github",
+	},
+	{
+		id: 8,
+		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png",
+		alt: "Google",
+	},
+	{
+		id: 9,
+		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/768px-Visual_Studio_Code_1.35_icon.svg.png",
+		alt: "VS Code",
+	},
+];
+export const sketchBoardImages = [
+	{
+		id: 1,
+		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/1024px-HTML5_Badge.svg.png",
+		alt: "HTML",
+	},
+	{
+		id: 2,
+		src: "https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png",
+		alt: "CSS",
+	},
+	{
+		id: 3,
+		src: "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
+		alt: "JS",
+	},
+	{
+		id: 4,
+		src: "https://cdn.icon-icons.com/icons2/2699/PNG/512/socketio_logo_icon_168806.png",
+		alt: "socketio",
+	},
+	{
+		id: 10,
+		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/2560px-Sass_Logo_Color.svg.png",
+		alt: "Sass",
+	},
+
+]
 
 export default images;
