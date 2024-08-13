@@ -1,6 +1,6 @@
 import React from "react";
 import "./DownloadCV.scss";
-import CV from "../files/Vijita-Udayabhanu-Frontend-Developer.pdf";
+import CV from "../files/Vijita-Udayabhanu-Frontend-Developer-w:o.pdf";
 
 function DownloadCV() {
 	return (

@@ -20,6 +20,11 @@ const images = [
 		alt: "React",
 	},
 	{
+		id: 199,
+		src: "https://static-00.iconduck.com/assets.00/redux-icon-2048x1945-ahvhunxp.png",
+		alt: "Redux",
+	},
+	{
 		id: 5,
 		src: "https://git-scm.com/images/logos/downloads/Git-Logo-White.png",
 		alt: "Git",
@@ -31,7 +36,7 @@ const images = [
 	},
 	{
 		id: 7,
-		src: "https://firebase.google.com/static/downloads/brand-guidelines/PNG/logo-knockout.png",
+		src: "https://www.svgrepo.com/show/303670/firebase-1-logo.svg",
 		alt: "Firebase",
 	},
 	{
@@ -46,7 +51,7 @@ const images = [
 	},
 	{
 		id: 10,
-		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png",
+		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png",
 		alt: "Google",
 	},
 	{
@@ -83,6 +88,21 @@ const images = [
 		id: 17,
 		src: "https://static-00.iconduck.com/assets.00/material-ui-icon-512x406-fhnu85xg.png",
 		alt: "Material UI",
+	},
+	{
+		id: 18,
+		src: "https://www.logo.wine/a/logo/WordPress.com/WordPress.com-Logo.wine.svg",
+		alt: "Wordpress",
+	},
+	{
+		id: 19,
+		src: "https://cdn.icon-icons.com/icons2/2699/PNG/512/webflow_logo_icon_169218.png",
+		alt: "Webflow",
+	},
+	{
+		id: 20,
+		src: "https://www.svgrepo.com/show/452207/framer.svg",
+		alt: "Framer",
 	},
 ];
 
@@ -149,12 +169,12 @@ export const amazonImages = [
 	},
 	{
 		id: 8,
-		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Firebase_Logo.svg/1200px-Firebase_Logo.svg.png",
+		src: "https://www.svgrepo.com/show/303670/firebase-1-logo.svg",
 		alt: "Firebase",
 	},
 	{
 		id: 9,
-		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png",
+		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png",
 		alt: "Google",
 	},
 	{
@@ -278,7 +298,7 @@ export const magmaImages = [
 	},
 	{
 		id: 12,
-		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png",
+		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png",
 		alt: "Google",
 	},
 	{
@@ -321,7 +341,7 @@ export const easybankImages = [
 	},
 	{
 		id: 12,
-		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png",
+		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png",
 		alt: "Google",
 	},
 	{
@@ -373,7 +393,7 @@ export const thisisdigitalImages = [
 	},
 	{
 		id: 12,
-		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png",
+		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png",
 		alt: "Google",
 	},
 	{
@@ -415,7 +435,7 @@ export const codingcontestImages = [
 	},
 	{
 		id: 7,
-		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png",
+		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png",
 		alt: "Google",
 	},
 	{
@@ -462,7 +482,7 @@ export const portfolioImages = [
 	},
 	{
 		id: 8,
-		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png",
+		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png",
 		alt: "Google",
 	},
 	{
@@ -499,7 +519,7 @@ export const tictactoeImages = [
 	},
 	{
 		id: 8,
-		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png",
+		src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png",
 		alt: "Google",
 	},
 	{

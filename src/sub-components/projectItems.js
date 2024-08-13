@@ -7,6 +7,7 @@ import TicTacToeMockupImage from "../images/Tic-Tac-Toe Mockup.png";
 import CodingContestMockup from "../images/CodingContestMockup.png";
 import PortfolioMockup from "../images/PortfolioMockup.png";
 import CrossItMockup from "../images/CrossITMockup.png";
+import RupaliLogisticsMockup from "../images/RupaliLogistics Mockup.png"
 
 export const filters = [
 	{
@@ -40,15 +41,14 @@ export const allProjectItems = [
 		liveLink: "https://clone-using-react-js-c2ec1.web.app/",
 	},
 	{
-		image: LinkedinMockupImage,
-		alt: "LinkedIn-Clone",
-		title: "LinkedIn Clone",
+		image: RupaliLogisticsMockup,
+		alt: "Freelance Project",
+		title: "Rupali Logistics Website",
 		summary:
-			"LinkedIn clone with user authentication functionality built using an array of technologies, including React JS, Redux, Firebase, and more.",
+			"Crafted a visually engaging landing page for a freight company, handling design to development with React and Framer Motion.",
 		category: "all",
-		link: "/Portfolio_Vijita_Uday_ReactJs/linkedin-clone",
-		githubLink: "https://github.com/vijita-u/LinkedIn-Clone-ReactJs/",
-		liveLink: "https://linkedin-clone-using-reactjs.web.app/",
+		link: "/Portfolio_Vijita_Uday_ReactJs/rupali-logistics-landing-page",
+		liveLink: "https://www.rupalilogistics.com/",
 	},
 	{
 		image: MagmaMockupImage,
@@ -98,7 +98,17 @@ export const projectItems = [
 		liveLink: "https://linkedin-clone-using-reactjs.web.app/",
 	},
 	{
-		image: MagmaMockupImage,
+		image: RupaliLogisticsMockup,
+		alt: "Freelance Project",
+		title: "Rupali Logistics Website",
+		summary:
+			"Crafted a visually engaging landing page for a freight company, handling design to development with React and Framer Motion.",
+		category: "all website",
+		link: "/Portfolio_Vijita_Uday_ReactJs/rupali-logistics-landing-page",
+		liveLink: "https://www.rupalilogistics.com/",
+	},
+	{
+		image: MagmaMockupImage, 
 		alt: "Magma Clone",
 		title: "Magma's Landing Page Clone",
 		summary:

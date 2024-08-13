@@ -7,6 +7,7 @@ import TicTacToeMockupImage from "../images/Tic-Tac-Toe Mockup.png";
 import CodingContestMockup from "../images/CodingContestMockup.png";
 import CrossItMockup from "../images/CrossITMockup.png";
 import PortfolioMockup from "../images/PortfolioMockup.png";
+import rupalilogisticsMockup from "../images/RupaliLogistics Mockup.png";
 
 export const amazonDoc = {
 	title: "Full Stack ReactJS",
@@ -122,4 +123,13 @@ export const crossITDoc = {
 		"This is an ongoing full-stack project designed to revolutionize how students manage their time, tasks, and goals. While there is no code yet, the project is currently in the design phase, with Figma designs nearly complete.",
 	reason: "My inspiration for this project stems from my own self-taught journey in becoming a developer. I recognized that bringing this idea to life could greatly assist students, like myself, in achieving their goals by providing a tool for discipline and consistent progress tracking.",
 	githubLink: "https://github.com/vijita-u/Cross-IT",
+};
+
+export const rupaliLogisticsDoc = {
+	title: "Rupali Logistics Website",
+	title2: "Landing Page",
+	img: rupalilogisticsMockup,
+	overview:
+		"As a freelance frontend developer, I was entrusted with creating a landing page for a freight services company at its early stage of development. The project encompassed the entire process, from initial wireframing to the final UI/UX design, culminating in a fully coded React website. Given the client’s need for a static site, I strategically utilized free images and resources available online to build a cost-effective solution. The site is enhanced with Framer Motion animations, adding a layer of visual engagement without compromising performance. This project reflects my ability to deliver a complete web solution, balancing design aesthetics and functionality, even within the constraints of a startup budget.",
+	liveLink: "https://www.rupalilogistics.com/",
 };

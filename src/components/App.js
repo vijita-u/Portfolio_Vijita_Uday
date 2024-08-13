@@ -24,6 +24,7 @@ import {
 	portfolioDoc,
 	thisisdigitalDoc,
 	tictactoeDoc,
+	rupaliLogisticsDoc
 } from "../sub-components/documentationText";
 import {
 	amazonImages,
@@ -70,6 +71,22 @@ function App() {
 				<AnimatePresence mode="wait">
 					<Routes location={location} key={location.pathname}>
 						<Route path="/message-confirmation" element={<MessageConfirmation />} />
+						<Route
+							path="/Portfolio_Vijita_Uday_ReactJs/rupali-logistics-landing-page"
+							element={
+								<ProjectDocumentation
+									title={rupaliLogisticsDoc.title}
+									title2={rupaliLogisticsDoc.title2}
+									image={rupaliLogisticsDoc.img}
+									overview={rupaliLogisticsDoc.overview}
+									tools={portfolioImages}
+									reason={rupaliLogisticsDoc.reason}
+									additionalFeatures={rupaliLogisticsDoc.additionalFeatures}
+									githubLink={rupaliLogisticsDoc.githubLink}
+									liveLink={rupaliLogisticsDoc.liveLink}
+								/>
+							}
+						/>
 						<Route
 							path="/Portfolio_Vijita_Uday_ReactJs/portfolio-website"
 							element={
