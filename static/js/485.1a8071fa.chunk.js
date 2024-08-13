@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportfolio_vijita=self.webpackChunkportfolio_vijita||[]).push([[485],{6485:(t,i,o)=>{o.r(i),o.d(i,{default:()=>e});const e=o(2729).g}}]);
+//# sourceMappingURL=485.1a8071fa.chunk.js.map
