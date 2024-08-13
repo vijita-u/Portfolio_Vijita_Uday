@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/Portfolio_Vijita_Uday_ReactJs/static/css/main.6f34f0dc.css",
-    "main.js": "/Portfolio_Vijita_Uday_ReactJs/static/js/main.acf5e105.js",
+    "main.js": "/Portfolio_Vijita_Uday_ReactJs/static/js/main.b7b6d2d1.js",
     "static/js/485.2086c44a.chunk.js": "/Portfolio_Vijita_Uday_ReactJs/static/js/485.2086c44a.chunk.js",
     "static/js/787.40608543.chunk.js": "/Portfolio_Vijita_Uday_ReactJs/static/js/787.40608543.chunk.js",
     "static/js/214.942751d0.chunk.js": "/Portfolio_Vijita_Uday_ReactJs/static/js/214.942751d0.chunk.js",
+    "static/media/FoodOrderingMockup.png": "/Portfolio_Vijita_Uday_ReactJs/static/media/FoodOrderingMockup.61f4928ff086264e0c84.png",
     "static/media/EasyBank Mockup.png": "/Portfolio_Vijita_Uday_ReactJs/static/media/EasyBank Mockup.a627dccc79a7c0f04dd7.png",
     "static/media/Digital Mockup.png": "/Portfolio_Vijita_Uday_ReactJs/static/media/Digital Mockup.2e05e5a6ce8ed0d7a98b.png",
     "static/media/Amazon Mockup.png": "/Portfolio_Vijita_Uday_ReactJs/static/media/Amazon Mockup.8cf7b944ff5c865255c1.png",
@@ -16,6 +17,7 @@
     "static/media/cherrybombone-regular.ttf": "/Portfolio_Vijita_Uday_ReactJs/static/media/cherrybombone-regular.cdf8cfb7f50d6b729c49.ttf",
     "static/media/bungee.outline-regular.otf": "/Portfolio_Vijita_Uday_ReactJs/static/media/bungee.outline-regular.0d1ea6803e3ff7f9cfd9.otf",
     "static/media/CodingContestMockup.png": "/Portfolio_Vijita_Uday_ReactJs/static/media/CodingContestMockup.5fe61ec5a16bc692090d.png",
+    "static/media/SketchBoardMockup.png": "/Portfolio_Vijita_Uday_ReactJs/static/media/SketchBoardMockup.9e62e65d964b931050b4.png",
     "static/media/LinkedIn Mockup.png": "/Portfolio_Vijita_Uday_ReactJs/static/media/LinkedIn Mockup.8a85aab953a468f4facf.png",
     "static/media/Tic-Tac-Toe Mockup.png": "/Portfolio_Vijita_Uday_ReactJs/static/media/Tic-Tac-Toe Mockup.e6dd319c48c69092e5ae.png",
     "static/media/SourceCodePro-Regular.ttf": "/Portfolio_Vijita_Uday_ReactJs/static/media/SourceCodePro-Regular.2cacf64afc86b76c81e6.ttf",
@@ -41,13 +43,13 @@
     "static/media/slick.woff": "/Portfolio_Vijita_Uday_ReactJs/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Portfolio_Vijita_Uday_ReactJs/index.html",
     "main.6f34f0dc.css.map": "/Portfolio_Vijita_Uday_ReactJs/static/css/main.6f34f0dc.css.map",
-    "main.acf5e105.js.map": "/Portfolio_Vijita_Uday_ReactJs/static/js/main.acf5e105.js.map",
+    "main.b7b6d2d1.js.map": "/Portfolio_Vijita_Uday_ReactJs/static/js/main.b7b6d2d1.js.map",
     "485.2086c44a.chunk.js.map": "/Portfolio_Vijita_Uday_ReactJs/static/js/485.2086c44a.chunk.js.map",
     "787.40608543.chunk.js.map": "/Portfolio_Vijita_Uday_ReactJs/static/js/787.40608543.chunk.js.map",
     "214.942751d0.chunk.js.map": "/Portfolio_Vijita_Uday_ReactJs/static/js/214.942751d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6f34f0dc.css",
-    "static/js/main.acf5e105.js"
+    "static/js/main.b7b6d2d1.js"
   ]
 }
